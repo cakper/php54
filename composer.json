@@ -1,0 +1,14 @@
+{
+    "require" : {
+        "symfony/console" : "*"
+    },
+    "require-dev": {
+        "phpspec/phpspec2": "dev-develop",
+        "behat/behat": "2.4.*@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-0": {"": "src"}},
+    "minimum-stability": "dev"
+}
